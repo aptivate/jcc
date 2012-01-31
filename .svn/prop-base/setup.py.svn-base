@@ -1,0 +1,14 @@
+K 13
+svn:eol-style
+V 6
+native
+K 13
+svn:mergeinfo
+V 177
+/lucene/pylucene/branches/branch_3x/jcc/setup.py:944934,944952-944954,944961,945445,945488,945517,945782,984140,984146
+/lucene/pylucene/branches/pylucene_2_9/jcc/setup.py:830336
+K 13
+svn:mime-type
+V 10
+text/plain
+END
