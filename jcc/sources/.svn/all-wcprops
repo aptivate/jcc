@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/asf/!svn/ver/1210030/lucene/pylucene/trunk/jcc/jcc/sources
+END
+jcc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/asf/!svn/ver/1128467/lucene/pylucene/trunk/jcc/jcc/sources/jcc.cpp
+END
+JObject.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/asf/!svn/ver/1154245/lucene/pylucene/trunk/jcc/jcc/sources/JObject.cpp
+END
+jccfuncs.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/asf/!svn/ver/823979/lucene/pylucene/trunk/jcc/jcc/sources/jccfuncs.h
+END
+types.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/asf/!svn/ver/1004766/lucene/pylucene/trunk/jcc/jcc/sources/types.cpp
+END
+JObject.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/asf/!svn/ver/1210030/lucene/pylucene/trunk/jcc/jcc/sources/JObject.h
+END
+JArray.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/1210029/lucene/pylucene/trunk/jcc/jcc/sources/JArray.cpp
+END
+JCCEnv.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/1154245/lucene/pylucene/trunk/jcc/jcc/sources/JCCEnv.cpp
+END
+functions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/asf/!svn/ver/1204103/lucene/pylucene/trunk/jcc/jcc/sources/functions.cpp
+END
+macros.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/asf/!svn/ver/946024/lucene/pylucene/trunk/jcc/jcc/sources/macros.h
+END
+JArray.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/asf/!svn/ver/1204095/lucene/pylucene/trunk/jcc/jcc/sources/JArray.h
+END
+JCCEnv.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/asf/!svn/ver/1128472/lucene/pylucene/trunk/jcc/jcc/sources/JCCEnv.h
+END
+functions.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/946024/lucene/pylucene/trunk/jcc/jcc/sources/functions.h
+END

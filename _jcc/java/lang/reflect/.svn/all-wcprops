@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/asf/!svn/ver/946024/lucene/pylucene/trunk/jcc/_jcc/java/lang/reflect
+END
+ParameterizedType.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/asf/!svn/ver/824210/lucene/pylucene/trunk/jcc/_jcc/java/lang/reflect/ParameterizedType.cpp
+END
+Modifier.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/asf/!svn/ver/946024/lucene/pylucene/trunk/jcc/_jcc/java/lang/reflect/Modifier.cpp
+END
+__init__.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/asf/!svn/ver/945842/lucene/pylucene/trunk/jcc/_jcc/java/lang/reflect/__init__.cpp
+END
+WildcardType.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/asf/!svn/ver/945842/lucene/pylucene/trunk/jcc/_jcc/java/lang/reflect/WildcardType.h
+END
+ParameterizedType.h
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/asf/!svn/ver/945842/lucene/pylucene/trunk/jcc/_jcc/java/lang/reflect/ParameterizedType.h
+END
+Modifier.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/asf/!svn/ver/945842/lucene/pylucene/trunk/jcc/_jcc/java/lang/reflect/Modifier.h
+END
+GenericArrayType.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/asf/!svn/ver/824210/lucene/pylucene/trunk/jcc/_jcc/java/lang/reflect/GenericArrayType.cpp
+END
+Method.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/asf/!svn/ver/824622/lucene/pylucene/trunk/jcc/_jcc/java/lang/reflect/Method.cpp
+END
+Type.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/asf/!svn/ver/824210/lucene/pylucene/trunk/jcc/_jcc/java/lang/reflect/Type.cpp
+END
+GenericDeclaration.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/asf/!svn/ver/824210/lucene/pylucene/trunk/jcc/_jcc/java/lang/reflect/GenericDeclaration.cpp
+END
+GenericArrayType.h
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/asf/!svn/ver/945842/lucene/pylucene/trunk/jcc/_jcc/java/lang/reflect/GenericArrayType.h
+END
+Field.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/asf/!svn/ver/824210/lucene/pylucene/trunk/jcc/_jcc/java/lang/reflect/Field.cpp
+END
+Method.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/asf/!svn/ver/945842/lucene/pylucene/trunk/jcc/_jcc/java/lang/reflect/Method.h
+END
+Constructor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/asf/!svn/ver/824210/lucene/pylucene/trunk/jcc/_jcc/java/lang/reflect/Constructor.cpp
+END
+Type.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/asf/!svn/ver/945842/lucene/pylucene/trunk/jcc/_jcc/java/lang/reflect/Type.h
+END
+GenericDeclaration.h
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/asf/!svn/ver/945842/lucene/pylucene/trunk/jcc/_jcc/java/lang/reflect/GenericDeclaration.h
+END
+TypeVariable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/asf/!svn/ver/824210/lucene/pylucene/trunk/jcc/_jcc/java/lang/reflect/TypeVariable.cpp
+END
+Field.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/asf/!svn/ver/945842/lucene/pylucene/trunk/jcc/_jcc/java/lang/reflect/Field.h
+END
+Constructor.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/asf/!svn/ver/945842/lucene/pylucene/trunk/jcc/_jcc/java/lang/reflect/Constructor.h
+END
+WildcardType.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/asf/!svn/ver/824622/lucene/pylucene/trunk/jcc/_jcc/java/lang/reflect/WildcardType.cpp
+END
+TypeVariable.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/asf/!svn/ver/945842/lucene/pylucene/trunk/jcc/_jcc/java/lang/reflect/TypeVariable.h
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/asf/!svn/ver/1044962/lucene/pylucene/trunk/jcc/helpers
+END
+windows.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/asf/!svn/ver/1039987/lucene/pylucene/trunk/jcc/helpers/windows.py
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/asf/!svn/ver/926452/lucene/pylucene/trunk/jcc/helpers/__init__.py
+END
+build.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/asf/!svn/ver/945938/lucene/pylucene/trunk/jcc/helpers/build.py
+END
+linux.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/asf/!svn/ver/926461/lucene/pylucene/trunk/jcc/helpers/linux.py
+END
+darwin.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/asf/!svn/ver/1044962/lucene/pylucene/trunk/jcc/helpers/darwin.py
+END
+mingw32.py
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/asf/!svn/ver/945938/lucene/pylucene/trunk/jcc/helpers/mingw32.py
+END
