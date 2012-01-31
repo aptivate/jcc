@@ -182,8 +182,9 @@ try:
         if platform in ('darwin', 'ipod', 'win32'):
             enable_shared = True
         elif platform == 'linux2':
-            from helpers.linux import patch_setuptools
-            enable_shared = patch_setuptools(with_setuptools)
+            # from helpers.linux import patch_setuptools
+            # enable_shared = patch_setuptools(with_setuptools)
+            pass
         elif platform == 'mingw32':
             enable_shared = True
             # need to monkeypatch the CygwinCCompiler class to generate
