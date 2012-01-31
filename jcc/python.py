@@ -1563,7 +1563,7 @@ def module(out, allInOne, classes, imports, cppdir, moduleName,
 def compile(env, jccPath, output, moduleName, install, dist, debug, jars,
             version, prefix, root, install_dir, home_dir, use_distutils,
             shared, compiler, modules, wininst, find_jvm_dll, arch, generics,
-            resources, imports):
+            resources, imports, egg_info, extra_setup_args):
 
     try:
         if use_distutils:
@@ -1775,6 +1775,9 @@ def compile(env, jccPath, output, moduleName, install, dist, debug, jars,
         else:
             script_args.append('bdist')
 
+    if egg_info:
+        script_args.append('egg_info')
+    
     args = {
         'extra_compile_args': compile_args,
         'extra_link_args': link_args,
@@ -1840,6 +1843,7 @@ def compile(env, jccPath, output, moduleName, install, dist, debug, jars,
         config_vars['CFLAGS'] = ' '.join(cflags)
 
     extensions = [Extension('.'.join([moduleName, extname]), **args)]
+    script_args.extend(extra_setup_args)
 
     args = {
         'name': moduleName,
@@ -1852,5 +1856,7 @@ def compile(env, jccPath, output, moduleName, install, dist, debug, jars,
     }
     if with_setuptools:
         args['zip_safe'] = False
+
+    print "setup args = %s" % args
 
     setup(**args)

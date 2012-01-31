@@ -349,6 +349,7 @@ def jcc(args):
     build = False
     install = False
     recompile = False
+    egg_info = False
     output = 'build'
     debug = False
     excludes = []
@@ -372,7 +373,8 @@ def jcc(args):
     arch = []
     resources = []
     imports = {}
-
+    extra_setup_args = []
+    
     i = 1
     while i < len(args):
         arg = args[i]
@@ -414,6 +416,12 @@ def jcc(args):
             elif arg == '--compile':
                 from python import compile
                 recompile = True
+            elif arg == '--egg-info':
+                from python import compile
+                egg_info = True
+            elif arg == '--extra-setup-arg':
+                i += 1
+                extra_setup_args.append(args[i])
             elif arg == '--output':
                 i += 1
                 output = args[i]
@@ -504,7 +512,7 @@ def jcc(args):
         else:
             raise ValueError, "--shared must be used when using --import"
 
-    if recompile or not build and (install or dist):
+    if recompile or not build and (install or dist or egg_info):
         if moduleName is None:
             raise ValueError, 'module name not specified (use --python)'
         else:
@@ -512,7 +520,8 @@ def jcc(args):
                     install, dist, debug, jars, version,
                     prefix, root, install_dir, home_dir, use_distutils,
                     shared, compiler, modules, wininst, find_jvm_dll,
-                    arch, generics, resources, imports)
+                    arch, generics, resources, imports, egg_info,
+                    extra_setup_args)
     else:
         if imports:
             def walk((include, importset), dirname, names):
@@ -647,12 +656,13 @@ def jcc(args):
             module(out, allInOne, done, imports, cppdir, moduleName,
                    shared, generics)
             out.close()
-            if build or install or dist:
+            if build or install or dist or egg_info:
                 compile(env, os.path.dirname(args[0]), output, moduleName,
                         install, dist, debug, jars, version,
                         prefix, root, install_dir, home_dir, use_distutils,
                         shared, compiler, modules, wininst, find_jvm_dll,
-                        arch, generics, resources, imports)
+                        arch, generics, resources, imports, egg_info,
+                        extra_setup_args)
 
 
 def header(env, out, cls, typeset, packages, excludes, generics, _dll_export):
