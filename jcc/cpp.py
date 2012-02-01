@@ -374,6 +374,7 @@ def jcc(args):
     resources = []
     imports = {}
     extra_setup_args = []
+    initvm_args = {'maxstack': '512k'}
     
     i = 1
     while i < len(args):
@@ -400,6 +401,9 @@ def jcc(args):
             elif arg == '--vmarg':
                 i += 1
                 vmargs.append(args[i])
+            elif arg == '--maxheap':
+                i += 1
+                initvm_args['maxheap'] = args[i]
             elif arg == '--python':
                 from python import python, module
                 i += 1
@@ -500,8 +504,9 @@ def jcc(args):
     if libpath:
         vmargs.append('-Djava.library.path=' + os.pathsep.join(libpath))
 
-    env = initVM(os.pathsep.join(classpath) or None,
-                 maxstack='512k', vmargs=' '.join(vmargs))
+    initvm_args['vmargs'] = ' '.join(vmargs)
+
+    env = initVM(os.pathsep.join(classpath) or None, **initvm_args)
 
     typeset = set()
     excludes = set(excludes)
