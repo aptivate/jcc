@@ -1730,7 +1730,10 @@ def compile(env, jccPath, output, moduleName, install, dist, debug, jars,
             if name.endswith('.cpp'):
                 sources.append(os.path.join(path, name))
 
-    script_args = ['build_ext']
+    if egg_info:
+        script_args = ['egg_info']
+    else:    
+        script_args = ['build_ext']
 
     includes[0:0] = INCLUDES
     compile_args = CFLAGS
@@ -1775,9 +1778,6 @@ def compile(env, jccPath, output, moduleName, install, dist, debug, jars,
         else:
             script_args.append('bdist')
 
-    if egg_info:
-        script_args.append('egg_info')
-    
     args = {
         'extra_compile_args': compile_args,
         'extra_link_args': link_args,
