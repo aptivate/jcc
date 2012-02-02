@@ -33,6 +33,12 @@ if len(sys.argv) == 1 or '--help' in sys.argv:
     --vmarg                 - add extra Java VM initialization parameter
     --resources             - include resource directory in distribution as
                               package data
+    --maxheap               - set the maximum Java heap size, as passing -Xmx*
+                              using --vmarg doesn't do anything
+    --egg-info              - ask distutils setup() to generate egg info, and
+                              don't compile the module (for pip install)
+    --extra-setup-arg       - pass an extra argument on setup.py command line
+                              (pip install uses --egg-base and --record params)
 
   Python wrapper generation options:
     --python NAME           - generate wrappers for use from Python in a module
