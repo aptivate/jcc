@@ -755,6 +755,8 @@ def header(env, out, cls, typeset, packages, excludes, generics, _dll_export):
                 returnType = method.getReturnType()
             if not known(returnType, typeset, declares, packages, excludes,
                          generics):
+                print "Ignoring method %s.%s: unknown return type %s" % (
+                    cls.getName(), method.getName(), returnType)
                 continue
             sig = "%s:%s" %(method.getName(), signature(method, True))
             if sig in methods and returnType != cls:
@@ -763,9 +765,12 @@ def header(env, out, cls, typeset, packages, excludes, generics, _dll_export):
                 params = method.getGenericParameterTypes()
             else:
                 params = method.getParameterTypes()
-            for param in params:
+            for i, param in enumerate(params):
                 if not known(param, typeset, declares, packages, excludes,
                              generics):
+                    print ("Ignoring method %s.%s: parameter %s has unknown " +
+                        "type %s") % (cls.getName(), method.getName(), i,
+                        param)
                     break
             else:
                 methods[sig] = method
